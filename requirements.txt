@@ -2,5 +2,4 @@ SQLAlchemy
 pandas
 streamlit
 psycopg2-binary 
-psycopg2 
 Pillow
