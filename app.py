@@ -7,13 +7,13 @@ from sqlalchemy import text
 
 
 st.set_page_config(
-    layout="centered", page_icon="💕", page_title="Daria Gole - Assignment 2"
+    layout="centered", page_icon="", page_title=" "
 )
 
 
 
 # Connect to the database
-engine = sa.create_engine("postgresql://postgres:M!v#3vKDd46hnCV@db.dprpqkfckvlgjxzifnkq.supabase.co:5432/postgres")
+engine = sa.create_engine("postgresql://postgres:M!v#3vKDd46hnCV@db.dprpqkfckvlgjxzifnkq.supabase.co:5432/postgres") # enter your link
 
 tables = (
     "DiseaseType", "Country", "Disease", "Discover", "Users", "PublicServant", 
@@ -21,7 +21,7 @@ tables = (
 )
 
 #write a header -- works
-st.title("Daria Gole - CSCI 241 Assignment 2. An application with CRUD operations")
+st.title("An application with CRUD operations")
 
 st.write("First, select a table to view data from it:")
 
